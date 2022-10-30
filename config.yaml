@@ -1,1 +1,10 @@
-test: hello
+configuration:
+ serverPath: 172.16.32.51
+ serverPort: 8080
+functions:
+ powershell:
+  test: 1
+  test2: 2
+ cmd:
+  test: 1
+  test: 2
